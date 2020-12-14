@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>File Upload</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}" />
+  </head>
+  <body>
+    <h1>File Upload</h1>
+    <form action="" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file" multiple accept="image/*">
+      <p>Drag your files here or click in this area.</p>
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+
+  <footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </footer>
+</html>
