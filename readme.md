@@ -1,3 +1,6 @@
+API to deploy image->image ML models (in this demo it simply does RGB->GRAY but it can be replaced with anything else).
+The code also creates a beautiful (not really) web interface to upload the images.
+
 # Guide
 
 ## RUN SERVER
